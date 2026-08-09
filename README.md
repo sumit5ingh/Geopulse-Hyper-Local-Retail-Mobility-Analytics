@@ -1,0 +1,1 @@
+GeoPulse is a geospatial data pipeline and analytics platform designed to help retail companies make data-driven real estate decisions. By processing massive datasets of anonymized mobile GPS pings, the platform replaces static census data with dynamic, hyper-local foot traffic insights to prevent store cannibalization.
