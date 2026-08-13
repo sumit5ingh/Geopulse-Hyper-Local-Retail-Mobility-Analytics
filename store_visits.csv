@@ -1,0 +1,86 @@
+visit_id,device_id,persona,store_id,store_name,category,entry_time,exit_time,dwell_minutes,ping_count,date,day_of_week
+1642c621-fd40-4079-a7dd-cfa3df7fff25,6a0a265a-94fb-4de8-afdf-82167d59aee1,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 12:08:00,2026-08-10 13:35:00,87.0,30,2026-08-10,Monday
+de46c3f2-e240-4e75-8d19-4f61d9564e5f,dc022692-fed8-434c-a753-6e27982acfec,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:48:00,2026-08-10 12:03:00,75.0,26,2026-08-10,Monday
+13e8bfb1-5c63-4ce8-99ee-3a669778859d,7049c16f-850d-4d82-83ba-86d394baad62,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:12:00,2026-08-10 13:12:00,60.0,21,2026-08-10,Monday
+e65d189f-a145-4b92-9a29-482ada32128b,2c42d42d-8bd2-4f7a-8625-ca4abbd3ae36,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:33:00,2026-08-10 12:09:00,36.0,13,2026-08-10,Monday
+e0b8205a-9837-47c3-a8b2-4ec69920f874,bc10021b-2dce-4208-a095-9ff7dde49a09,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 12:24:00,2026-08-10 13:18:00,54.0,19,2026-08-10,Monday
+52d27105-00f6-4dcd-b998-af1f3f520318,313b23f5-b761-4fb5-b6c2-eb69d3b4120a,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:06:00,2026-08-10 11:15:00,9.0,4,2026-08-10,Monday
+1e1a5237-6b14-46f1-9309-dd7209a841e1,313b23f5-b761-4fb5-b6c2-eb69d3b4120a,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:21:00,2026-08-10 12:09:00,48.0,17,2026-08-10,Monday
+82352725-abdb-4b87-886e-cfcf2b944490,2dba3554-dfcf-4822-8b0d-1994366dfb0d,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:28:00,2026-08-10 11:31:00,63.0,22,2026-08-10,Monday
+46cf57f0-192f-4d8a-8ef7-b7c9a374bfea,2075b779-eb75-4544-b241-6fa029db2db3,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 11:51:00,2026-08-10 12:00:00,9.0,4,2026-08-10,Monday
+2fb9ea67-9c36-4584-931d-fa63811b0e1e,2075b779-eb75-4544-b241-6fa029db2db3,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 12:06:00,2026-08-10 13:21:00,75.0,26,2026-08-10,Monday
+98a50443-5c29-4751-8f15-827f649e9db6,ce5112a0-06f3-48ff-808d-46bc755b20a8,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 12:25:00,2026-08-10 13:31:00,66.0,23,2026-08-10,Monday
+cd987676-8236-4a7c-b64f-65a8ffe068e7,9bfa4df8-5459-4dfe-88a7-0bdacfe21b01,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:23:00,2026-08-10 12:11:00,48.0,17,2026-08-10,Monday
+f1614713-73b7-45ae-9119-08fb24375866,02b1abb5-082d-4400-a95c-a5b9a6d4a7dd,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:35:00,2026-08-10 13:32:00,57.0,20,2026-08-10,Monday
+108cc481-01c9-4069-89cd-6714382cc031,02b1abb5-082d-4400-a95c-a5b9a6d4a7dd,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 13:38:00,2026-08-10 13:59:00,21.0,8,2026-08-10,Monday
+935d6692-d830-4711-8732-5cae22944ff9,003d6c6f-5415-4214-b65d-72b1e0b4775a,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:48:00,2026-08-10 13:09:00,81.0,28,2026-08-10,Monday
+135ff6da-4acf-446a-b68d-5bd4d1c6ece2,0038f942-2202-4415-bb7a-c24c5b9222c3,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 11:31:00,2026-08-10 12:13:00,42.0,15,2026-08-10,Monday
+940a9094-8504-4025-84ec-27d90bf291b2,d20805dd-6357-4eae-828a-a57fe2ab0d99,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:33:00,2026-08-10 11:18:00,45.0,16,2026-08-10,Monday
+6da37a2d-77b0-4faa-b4bb-a74d8ac881bd,6ad91f19-5f14-4f9a-8c1a-6cf36e59b8c5,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 12:34:00,2026-08-10 13:46:00,72.0,25,2026-08-10,Monday
+08dc9b86-a460-4fa9-a485-ec27cbd7114b,a171d88c-934c-4bc2-bea5-bddefc9e5b31,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 10:35:00,2026-08-10 11:35:00,60.0,21,2026-08-10,Monday
+6bdfa9ef-6a31-41a6-9c14-3b16ac127b80,f3b2920b-f024-4eef-bf3b-92d5c97c5667,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:17:00,2026-08-10 11:53:00,36.0,13,2026-08-10,Monday
+fcf20489-fe5e-44a5-a7b3-8dfae75b881c,2cf7e2dc-c524-4a1b-a8a4-271b245d1847,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 11:57:00,2026-08-10 13:06:00,69.0,24,2026-08-10,Monday
+dba20b7c-c6ef-4431-940a-2fa74ae15449,2a2da218-095e-4f91-9e53-4aa46cda3c1b,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 10:41:00,2026-08-10 11:29:00,48.0,17,2026-08-10,Monday
+ea414762-0e38-465c-a3ca-9b2401752ecf,2a2da218-095e-4f91-9e53-4aa46cda3c1b,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:35:00,2026-08-10 11:50:00,15.0,6,2026-08-10,Monday
+9532b022-88a4-4052-b806-9860bad25914,c1354d66-d5fb-4e85-b73b-5240f682a5fe,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 10:37:00,2026-08-10 12:07:00,90.0,31,2026-08-10,Monday
+b409c50d-6961-4123-a3fb-adba66cd3384,8e85e2dd-0dee-475a-8bec-60e34691e903,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:14:00,2026-08-10 12:35:00,81.0,28,2026-08-10,Monday
+9fe7fc89-f67a-4f3c-8d63-2f7608d60e5d,8bfacdd7-bf77-4d49-9f32-61180fdac3e0,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 11:30:00,2026-08-10 12:06:00,36.0,13,2026-08-10,Monday
+1025f2d8-0e06-41af-8ae0-a3a949c735e8,8d0f3dc0-c6a3-4f4c-ac98-6030d5893d1e,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:10:00,2026-08-10 11:52:00,42.0,15,2026-08-10,Monday
+6bf8c3e6-86d8-412b-b102-88ddc22c399f,b545794f-29b1-466d-afa4-519f59a00b54,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 11:29:00,2026-08-10 13:02:00,93.0,32,2026-08-10,Monday
+571ad639-d8ed-4b84-ad62-8cbb3b772cce,de471574-5925-4813-a139-1f7b32c8dca2,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 11:27:00,2026-08-10 12:57:00,90.0,31,2026-08-10,Monday
+e76836be-6a92-4dd5-b265-06e05c329172,75d2d3e4-be25-4552-b844-afd4a80ca555,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:04:00,2026-08-10 12:01:00,57.0,20,2026-08-10,Monday
+66516096-9c0d-47bd-94d6-43a8ce864d7d,8bf25ee3-0afe-49ee-99c8-ba083cab5548,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:54:00,2026-08-10 12:54:00,60.0,21,2026-08-10,Monday
+860bcd32-b7e2-49de-8a59-8b401375d8bf,054f086f-d203-4eee-b528-74a940811195,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:07:00,2026-08-10 11:43:00,36.0,13,2026-08-10,Monday
+90e183b6-50c7-4871-a7e3-f75faa9e63ff,f908be42-cae5-4a12-88ba-dcf0f88ef6a9,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:42:00,2026-08-10 12:00:00,78.0,27,2026-08-10,Monday
+357afdbb-6b0c-45eb-8ed8-ea84f313c45c,94c4bd52-8e1f-4c6f-861e-2d09994c35f5,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 10:20:00,2026-08-10 11:02:00,42.0,15,2026-08-10,Monday
+45191588-685d-46c8-9978-581a6fe3d286,1da5160b-cdc1-4a5b-bb2a-ea6d77cc7691,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 10:18:00,2026-08-10 11:45:00,87.0,30,2026-08-10,Monday
+65d3cd18-b014-4f91-bbe2-f043afd1ca12,156f1b07-b207-4bc8-bb5b-e21b401afa9b,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:33:00,2026-08-10 11:12:00,39.0,14,2026-08-10,Monday
+3839a9c3-277e-4844-abaf-3db8840e3e44,557d2f48-648f-4cc4-b420-a42d20b3d7fb,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 10:31:00,2026-08-10 11:16:00,45.0,16,2026-08-10,Monday
+16b8b6f8-d640-48a9-990c-effaebf346d2,132f3ae6-9f52-4ed9-884a-bdae88d7d2c5,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:05:00,2026-08-10 13:29:00,84.0,29,2026-08-10,Monday
+510e3537-02e5-42ba-8ff0-53b09c615620,6abfcd7d-c520-4904-934d-1fff9e656563,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 12:02:00,2026-08-10 12:53:00,51.0,18,2026-08-10,Monday
+e1df7c69-a90c-4bf2-97c0-de2500eb83a6,1cfe63e1-27b6-4806-be70-c7412783f8ff,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:27:00,2026-08-10 11:15:00,48.0,17,2026-08-10,Monday
+2c5f412a-2dec-499f-a09d-6cb4b4d9d63d,0e8ec2d8-4533-4ecb-bc7e-0cbe55b4a9e5,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:17:00,2026-08-10 12:26:00,69.0,24,2026-08-10,Monday
+8b590ce5-0aca-4696-8b1c-91a9403eb8c9,544aa032-fbb0-49fd-9370-cc024194f4e1,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:08:00,2026-08-10 13:02:00,54.0,19,2026-08-10,Monday
+ec378e93-ea05-4c67-86ca-c64a31336969,52767e7a-d1bc-4e0a-8f94-8f09bfd7aed8,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 10:39:00,2026-08-10 12:00:00,81.0,28,2026-08-10,Monday
+202281c2-7f09-4e79-9b20-301825901586,6b52ed08-e023-42d8-a22e-cb83cbd3f3cf,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:18:00,2026-08-10 13:21:00,63.0,22,2026-08-10,Monday
+65fb2eb2-4002-4c8c-a8b6-7c070e08d552,bed69b6f-7078-4d32-83a2-896ba17269db,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 10:15:00,2026-08-10 11:39:00,84.0,29,2026-08-10,Monday
+ca61045c-9c5c-49ed-93e8-f0c7c55a9dd3,5e7f430c-c5d6-4aee-ad41-5eef040ad8a3,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 12:29:00,2026-08-10 13:59:00,90.0,31,2026-08-10,Monday
+b7d214f9-de70-45f8-807e-8ce8dfa70fbd,4bfa6db5-27dc-4c64-a9e8-afaafb0f5e95,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:31:00,2026-08-10 10:43:00,12.0,5,2026-08-10,Monday
+0cb61e53-a91b-4ab1-bd19-9f9572b8a3f4,4bfa6db5-27dc-4c64-a9e8-afaafb0f5e95,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:49:00,2026-08-10 11:01:00,12.0,5,2026-08-10,Monday
+930660ab-1507-4a4d-bdae-e433855c9688,4bfa6db5-27dc-4c64-a9e8-afaafb0f5e95,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:07:00,2026-08-10 11:43:00,36.0,13,2026-08-10,Monday
+48c4482d-0654-438e-94d2-fd93d1a1b603,4091b7d5-b195-455f-af8f-ac321c4fae51,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 12:45:00,2026-08-10 14:03:00,78.0,27,2026-08-10,Monday
+1b1a08e3-fd32-4282-a637-58fdfb8f71ab,42fc2333-7f23-4d25-a2de-f77ee5fee292,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 10:46:00,2026-08-10 12:19:00,93.0,32,2026-08-10,Monday
+187d3d30-f2ef-4a80-acce-aba490df5986,48699daf-4a3c-4fd8-8234-e2b73b49e681,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:46:00,2026-08-10 13:25:00,99.0,34,2026-08-10,Monday
+d1fd3b01-50d3-4d4d-a228-5acbabcd736a,aa46ea61-4166-4f60-aabb-1fcd975947dd,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:07:00,2026-08-10 12:22:00,75.0,26,2026-08-10,Monday
+1b605a9f-6480-4d44-9701-79b2db988f86,d58493a8-3d10-4b77-9a0d-f3d801e3a34a,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 10:22:00,2026-08-10 11:37:00,75.0,26,2026-08-10,Monday
+9ff1aea7-47a9-4763-bcf0-75423ce26984,e3542d25-6c95-4e9b-b795-2661856796eb,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 11:32:00,2026-08-10 12:44:00,72.0,25,2026-08-10,Monday
+0a9f6eb3-bbe1-4a05-be08-c3704f315548,04eda18d-5266-44aa-81e0-af1697f33aad,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:37:00,2026-08-10 11:19:00,42.0,15,2026-08-10,Monday
+e403bb47-1f78-4ebf-958a-e97095f86c51,b8262ac1-02ac-4737-b442-e83bd14d28b7,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:15:00,2026-08-10 12:33:00,78.0,27,2026-08-10,Monday
+57da64be-1473-45ae-97ae-7d0cfcf117ef,7fa41680-2227-4c94-b1b9-aeff8abbba20,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 12:13:00,2026-08-10 12:55:00,42.0,15,2026-08-10,Monday
+91226c01-8ade-4981-acbb-3457ab20cb10,e55e0370-57aa-473f-a41b-83df55f63c6c,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:57:00,2026-08-10 11:42:00,45.0,16,2026-08-10,Monday
+a92a9ed2-7c3c-412b-9f99-af967c6bf910,8e7e4836-3653-40ea-b494-54b891b13cbd,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:27:00,2026-08-10 13:18:00,51.0,18,2026-08-10,Monday
+004caa30-e224-4099-a1e0-5459b5c32f0a,ca92efdf-3e78-4914-99ba-5e537a97fb04,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:03:00,2026-08-10 12:00:00,57.0,20,2026-08-10,Monday
+6cd05aa9-1f70-48de-8c94-fade465f693f,2330b7a2-268b-4d52-9aec-50a302f313c9,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 10:14:00,2026-08-10 11:02:00,48.0,17,2026-08-10,Monday
+f57e4594-0a8b-4852-ae79-490fb73bc0b3,497cfe64-c1a7-4df2-a8c5-769bf4d342af,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:47:00,2026-08-10 13:26:00,99.0,34,2026-08-10,Monday
+3a93e41a-789c-45ef-82fb-3cea91ff06a0,335f8d1f-1b34-47da-b137-e35800c7cefd,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:43:00,2026-08-10 13:01:00,78.0,27,2026-08-10,Monday
+9189aa42-c799-428e-abfe-cd039e20dc68,c561c681-2bcc-4246-bf0d-a2119d713eb5,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:58:00,2026-08-10 12:43:00,45.0,16,2026-08-10,Monday
+77d9fbf2-f9c0-4c1b-b40d-992f76dd65d9,e899ee75-0e20-464b-ba60-5947f8863d11,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:41:00,2026-08-10 12:29:00,48.0,17,2026-08-10,Monday
+e9315f1a-fb8a-43c1-9f30-4eb87b42eead,e899ee75-0e20-464b-ba60-5947f8863d11,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:35:00,2026-08-10 12:50:00,15.0,6,2026-08-10,Monday
+52b01182-05e4-48f8-8042-7df68a36106a,b44411a1-818d-44ad-9149-e94c5a2bec43,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:21:00,2026-08-10 13:00:00,39.0,14,2026-08-10,Monday
+4ae68b39-9ddc-4e98-a46a-c23260ed4f0d,b677c868-37e3-4ebf-b348-53efdc4d0dbc,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:01:00,2026-08-10 13:19:00,78.0,27,2026-08-10,Monday
+7d3d4947-eaa2-4643-9c0f-39f1ada06396,7879cea9-8564-49d7-9d53-093d458fa70e,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:03:00,2026-08-10 12:39:00,36.0,13,2026-08-10,Monday
+f0da4a7d-947c-4d40-999e-f4bd8f0027a9,6784b568-f2ee-4f7f-b098-cabef783e75f,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:03:00,2026-08-10 13:30:00,87.0,30,2026-08-10,Monday
+6cecae4f-9ad0-40ad-acd8-850bb1aa2923,e2f7bd5c-bd5c-4d28-9a80-0eaad96d2900,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 11:41:00,2026-08-10 12:29:00,48.0,17,2026-08-10,Monday
+f148427e-c782-497f-8422-fca37cabee44,5aa4e3ba-f2ea-4360-898b-9ad0f6558217,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:10:00,2026-08-10 13:25:00,75.0,26,2026-08-10,Monday
+18cf7f46-1e4f-4772-91d7-9d111684c85c,efd1f834-fc05-4d74-8fc3-cf53870895ab,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 10:39:00,2026-08-10 12:06:00,87.0,30,2026-08-10,Monday
+272bb213-f783-4781-95a7-79570b47135a,dace600c-e9b3-447c-a8f7-65d578150599,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 10:59:00,2026-08-10 12:26:00,87.0,30,2026-08-10,Monday
+7b0b8fc4-53d5-4655-b76f-2121298aecc3,66f98bfb-85ca-4116-8caf-f9eb73b3b690,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 11:37:00,2026-08-10 12:25:00,48.0,17,2026-08-10,Monday
+66be0a9d-25b2-4081-a585-efec58ce1e20,966106f7-d39f-4c02-9a61-05711ee7fc32,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:20:00,2026-08-10 12:05:00,45.0,16,2026-08-10,Monday
+ef362dd1-557c-45ac-976b-fb49fc52dcc9,c06080c0-1ff7-4a02-858f-e40e64bc2402,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 12:16:00,2026-08-10 12:25:00,9.0,4,2026-08-10,Monday
+bb4b237d-e819-4630-8400-ad6e8bcc2243,c06080c0-1ff7-4a02-858f-e40e64bc2402,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 12:31:00,2026-08-10 13:43:00,72.0,25,2026-08-10,Monday
+22864d97-7ea1-4df6-986b-b88593a7418a,c39e0f45-7294-4685-8e7e-1a9fcaa91d60,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 11:12:00,2026-08-10 12:21:00,69.0,24,2026-08-10,Monday
+a9c95dff-1696-4af8-b3bf-32f68af57cd0,24874d82-1719-4fcb-b995-81bf140a0c19,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 12:00:00,2026-08-10 12:54:00,54.0,19,2026-08-10,Monday
+2b7e012f-1f28-4dc5-93b8-fbb03ea06b41,8416bf89-e620-47ea-be57-786956893952,Shopper,STR003,Store C - Wardha Road,Hypermarket,2026-08-10 10:18:00,2026-08-10 11:39:00,81.0,28,2026-08-10,Monday
+987cedd6-2e50-4852-836a-c5483b1e7b92,1aab89a6-c963-4ed4-97f1-1f48c9b0d4d5,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 12:03:00,2026-08-10 13:12:00,69.0,24,2026-08-10,Monday
+5ad0a8c9-2c83-4131-bf78-f6f2e34dba66,d4725b73-03b5-42a7-af81-de7ed67eeaf4,Shopper,STR001,Store A - Sitabuldi,Supermarket,2026-08-10 10:28:00,2026-08-10 11:37:00,69.0,24,2026-08-10,Monday
+00e0c939-3b15-4729-a53a-2e3892cef2ef,68682975-907e-4f16-bf5a-4ed0212b83c3,Shopper,STR002,Store B - Civil Lines,Mall,2026-08-10 10:58:00,2026-08-10 11:34:00,36.0,13,2026-08-10,Monday
