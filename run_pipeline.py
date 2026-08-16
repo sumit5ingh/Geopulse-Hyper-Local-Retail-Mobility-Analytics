@@ -1,13 +1,6 @@
 """
-Day 7 - GeoPulse Pipeline Runner
-==================================
-Saare Day 1-6 scripts ko sahi order mein ek ke baad ek chalata hai.
-Agar koi step fail ho jaye (non-zero exit code), to pipeline yahin
-ruk jaata hai - taaki galat/incomplete data aage propagate na ho.
+Day 7 - GeoPulse Pipeline Runner """
 
-Is script ko root folder mein rakho (jahan baaki saari .py files
-aur CSVs hai) aur seedha 'python run_pipeline.py' se chalao.
-"""
 
 import subprocess
 import sys
