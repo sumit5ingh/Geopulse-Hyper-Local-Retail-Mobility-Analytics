@@ -3,6 +3,12 @@ import pandas as pd
 from datetime import datetime, timedelta
 import uuid
 
+#Reproducibility - seed fix kar diya hai taaki har run
+#same random data de (warna har baar naya dataset banta tha
+#aur downstream summaries match nahi karti thi).
+RANDOM_SEED = 42
+np.random.seed(RANDOM_SEED)
+
 #Project Configuration
 
 SIMULATION_DATE = datetime(2026, 8, 10)
@@ -112,9 +118,15 @@ def pick_zone(zone_dict):
 
 #create one complete daily journey for a device
 
-def build_journey(persona):
+def build_journey(persona, home_point=None):
     """create the full-day GPS movement
-    for one device."""
+    for one device.
+
+    home_point: agar caller (jaise generate_gps_metadata.py)
+    pehle se hi home location decide kar chuka hai to wahi
+    pass karo - warna yahan naya random home pick ho jayega
+    aur caller ke pass wale home se mismatch ho jayega
+    (yahi bug tha distance_from_home_m column mein)."""
 
     journey = []
 
@@ -124,8 +136,10 @@ def build_journey(persona):
         minute=np.random.randint(0, 60)
     )
 
-    #Device ke liye randomly ek home location select karo.
-    home_name, home_point = pick_zone(HOME_ZONE)
+    #Device ke liye home location - agar caller ne diya hai
+    #to wahi use karo, warna yahan se randomly pick karo.
+    if home_point is None:
+        home_name, home_point = pick_zone(HOME_ZONE)
 
     #Keep the device at one location for some time.
     #Har 3 minute pe ek GPS ping generate hoga jab tak time khatam nahi hota.
@@ -254,32 +268,41 @@ def build_journey(persona):
     return journey
 
 
-#store all GPS records from all devices.
-all_records = []
+#NOTE: Ye generation block ab __main__ guard ke andar hai.
+#Pehle ye module-level tha, isliye jab generate_gps_metadata.py
+#is file ko import karta tha, ye poora block phir se chal jaata
+#tha aur gps_data.csv ko naye random data se silently overwrite
+#kar deta tha. Ab import karne pe sirf functions/constants milenge,
+#generation sirf `python generate_gps_data.py` chalane pe hoga.
 
-#generate GPS data for each device.
-for device_number in range(1, NUM_DEVICES + 1):
-    device_id = str(uuid.uuid4())
+if __name__ == "__main__":
 
-    #persona randomly choose karo, weight ke hisaab se.
-    persona = np.random.choice(
-        list(PERSONA_WEIGHT.keys()),
-        p=list(PERSONA_WEIGHT.values())
-    )
+    #store all GPS records from all devices.
+    all_records = []
 
-    journey = build_journey(persona)
+    #generate GPS data for each device.
+    for device_number in range(1, NUM_DEVICES + 1):
+        device_id = str(uuid.uuid4())
 
-    #har record mein device_id aur persona add karo.
-    for record in journey:
-        record["device_id"] = device_id
-        record["persona"] = persona
+        #persona randomly choose karo, weight ke hisaab se.
+        persona = np.random.choice(
+            list(PERSONA_WEIGHT.keys()),
+            p=list(PERSONA_WEIGHT.values())
+        )
 
-    all_records.extend(journey)
+        journey = build_journey(persona)
 
-#saare devices ka data collect hone ke baad hi CSV save karo (loop ke bahar).
-df = pd.DataFrame(all_records)
-df.to_csv("gps_data.csv", index=False)
+        #har record mein device_id aur persona add karo.
+        for record in journey:
+            record["device_id"] = device_id
+            record["persona"] = persona
 
-print("CSV generated successfully!")
-print("Total records:", len(all_records))
-print("Total devices:", NUM_DEVICES)
+        all_records.extend(journey)
+
+    #saare devices ka data collect hone ke baad hi CSV save karo (loop ke bahar).
+    df = pd.DataFrame(all_records)
+    df.to_csv("gps_data.csv", index=False)
+
+    print("CSV generated successfully!")
+    print("Total records:", len(all_records))
+    print("Total devices:", NUM_DEVICES)

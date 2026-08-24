@@ -5,7 +5,13 @@ from math import radians, sin , cos, sqrt, atan2
 
 from generate_gps_data import(HOME_ZONE, WORK_ZONES,STORES, 
                               PERSONA_WEIGHT,
-                              NUM_DEVICES,pick_zone,build_journey)
+                              NUM_DEVICES,pick_zone,build_journey,
+                              RANDOM_SEED)
+
+#Same seed reuse kar rahe hai jo generate_gps_data.py mein set
+#hua tha (import ke time pe wahan set ho chuka hoga), taaki
+#gps_data.csv aur gps_data_final.csv reproducible rahe.
+np.random.seed(RANDOM_SEED)
 def haversine_distance(lat1, lon1, lat2, lon2):
     """Calculate distance in meters between
     two gps coordianates."""
@@ -91,7 +97,13 @@ for device_number in range(1, NUM_DEVICES + 1):
                                p=list(PERSONA_WEIGHT.values()))
 
     #device ka home point yaad rakhna hai baad me 
-    #distance_from_home nikalne ke liye .
+    #distance_from_home nikalne ke liye.
+    #FIX: pehle ye home_point yahan pick hota tha aur
+    #build_journey() apna alag home_point khud pick kar leta
+    #tha - dono independent random calls the, isliye ~70%
+    #devices mein mismatch ho jaata tha aur distance_from_home_m
+    #galat aata tha. Ab wahi home_point build_journey() ko pass
+    #kar rahe hai taaki dono jagah same home use ho.
 
     home_name, home_point = pick_zone(HOME_ZONE)
     home_points_by_device[device_id] = home_point
@@ -99,7 +111,7 @@ for device_number in range(1, NUM_DEVICES + 1):
     #device-level metadata (OS, accuracy)
     device_os, gps_accuracy_m = generate_device_metadata()
  
-    journey = build_journey(persona)
+    journey = build_journey(persona, home_point=home_point)
  
     #har record mein device_id, persona, device metadata add karo.
     for record in journey:
@@ -121,6 +133,3 @@ print("Final dataset generated successfully!")
 print("Total records:", len(all_records))
 print("Total devices:", NUM_DEVICES)
 print("Columns:", list(df.columns))
- 
-             
-    
