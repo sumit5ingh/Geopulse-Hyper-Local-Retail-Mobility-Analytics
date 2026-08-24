@@ -1,0 +1,102 @@
+GEOPULSE - DAY 6 DATA VALIDATION REPORT
+Generated on: 2026-08-16 18:44:51
+
+============================================================
+STEP 1: FILE EXISTENCE CHECK
+============================================================
+[OK]   gps_data_final.csv                  -> 121,931 rows
+[OK]   store_visits.csv                    -> 85 rows
+[OK]   footfall_summary.csv                -> 3 rows
+[OK]   catchment_data.csv                  -> 500 rows
+[OK]   store_catchment_summary.csv         -> 12 rows
+
+============================================================
+STEP 2: NULL / MISSING VALUE CHECK
+============================================================
+[OK]   gps.device_id                      -> 0 nulls
+[OK]   gps.lat                            -> 0 nulls
+[OK]   gps.lon                            -> 0 nulls
+[OK]   gps.timestamp                      -> 0 nulls
+[OK]   gps.persona                        -> 0 nulls
+[OK]   gps.ping_id                        -> 0 nulls
+[OK]   visits.visit_id                       -> 0 nulls
+[OK]   visits.device_id                      -> 0 nulls
+[OK]   visits.store_id                       -> 0 nulls
+[OK]   visits.entry_time                     -> 0 nulls
+[OK]   visits.exit_time                      -> 0 nulls
+[OK]   visits.dwell_minutes                  -> 0 nulls
+[OK]   footfall.store_id                       -> 0 nulls
+[OK]   footfall.date                           -> 0 nulls
+[OK]   footfall.total_visits                   -> 0 nulls
+[OK]   footfall.unique_visitors                -> 0 nulls
+[OK]   catchment.device_id                      -> 0 nulls
+[OK]   catchment.home_lat                       -> 0 nulls
+[OK]   catchment.home_lon                       -> 0 nulls
+[OK]   catchment.nearest_store_id               -> 0 nulls
+[OK]   catchment.catchment_ring                 -> 0 nulls
+[OK]   catchment_summary.store_id                       -> 0 nulls
+[OK]   catchment_summary.catchment_ring                 -> 0 nulls
+[OK]   catchment_summary.homes_in_ring                  -> 0 nulls
+
+============================================================
+STEP 3: DUPLICATE / UNIQUENESS CHECK
+============================================================
+[OK]   gps.ping_id         -> no duplicates (har GPS ping ki unique ID honi chahiye)
+[OK]   visits.visit_id        -> no duplicates (har visit ki unique ID honi chahiye)
+[OK]   catchment.device_id       -> no duplicates (har device ka ek hi catchment record hona chahiye)
+
+============================================================
+STEP 4: PERSONA DISTRIBUTION CHECK (Expected 40/40/20)
+============================================================
+[OK]   Resident   -> expected 40%, actual 41.8% (devices: 209)
+[OK]   Commuter   -> expected 40%, actual 42.8% (devices: 214)
+[OK]   Shopper    -> expected 20%, actual 15.4% (devices: 77)
+Total unique devices: 500
+
+============================================================
+STEP 5: DATE RANGE SANITY CHECK
+============================================================
+[FAIL] Expected sirf 2026-08-10, mila: [datetime.date(2026, 8, 10), datetime.date(2026, 8, 11)]
+Earliest ping: 2026-08-10 07:00:00
+Latest ping:   2026-08-11 03:11:00
+
+============================================================
+STEP 6: LAT/LON BOUNDING BOX CHECK (Nagpur region)
+============================================================
+[OK]   Saare 121,931 points bounding box (20.9-21.3, 78.9-79.25) ke andar hai
+
+============================================================
+STEP 7: DWELL TIME THRESHOLD CHECK
+============================================================
+[OK]   Saare 85 visits ka dwell_minutes >= 5 hai
+Avg dwell time: 58.4 min
+Max dwell time: 99.0 min
+
+============================================================
+STEP 8: CROSS-FILE DEVICE_ID CONSISTENCY
+============================================================
+[OK]   gps_data_final aur catchment_data ke device_ids exactly match karte hai (500 devices)
+[OK]   store_visits ke saare device_ids gps_data_final mein maujood hai (77 devices ne visit kiya)
+
+============================================================
+STEP 9: STORE-LEVEL SANITY CHECK
+============================================================
+[OK]   footfall_summary ka total_visits (85) store_visits row count (85) se match karta hai
+
+Store-wise visit counts:
+store_name
+Store B - Civil Lines    33
+Store A - Sitabuldi      30
+Store C - Wardha Road    22
+
+Catchment ring distribution (per store):
+catchment_ring         0-1km  1-3km  3-5km  5km+
+store_name                                      
+Store A - Sitabuldi        0    314    186     0
+Store B - Civil Lines      0    500      0     0
+Store C - Wardha Road      0      0    157   343
+
+============================================================
+VALIDATION COMPLETE
+============================================================
+Report saved to: validation_report.txt
