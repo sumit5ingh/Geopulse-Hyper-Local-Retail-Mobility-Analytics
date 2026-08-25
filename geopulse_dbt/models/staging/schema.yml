@@ -1,0 +1,41 @@
+version: 2
+
+models:
+
+  - name: stg_gps_pings
+    description: "Cleaned GPS ping data from Snowflake."
+
+    columns:
+
+      - name: DEVICE_ID
+        tests:
+          - not_null
+
+      - name: LATITUDE
+        tests:
+          - not_null
+
+      - name: LONGITUDE
+        tests:
+          - not_null
+
+      - name: EVENT_TIMESTAMP
+        tests:
+          - not_null
+
+  - name: fct_hourly_footfall
+    description: "Hourly footfall metrics generated from GPS pings."
+
+    columns:
+
+      - name: EVENT_HOUR
+        tests:
+          - not_null
+
+      - name: TOTAL_PINGS
+        tests:
+          - not_null
+
+      - name: UNIQUE_DEVICES
+        tests:
+          - not_null

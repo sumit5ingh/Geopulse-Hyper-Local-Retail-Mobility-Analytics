@@ -1,7 +1,7 @@
 store_id,store_name,catchment_ring,homes_in_ring
 STR001,Store A - Sitabuldi,0-1km,0
-STR001,Store A - Sitabuldi,1-3km,336
-STR001,Store A - Sitabuldi,3-5km,164
+STR001,Store A - Sitabuldi,1-3km,338
+STR001,Store A - Sitabuldi,3-5km,162
 STR001,Store A - Sitabuldi,5km+,0
 STR002,Store B - Civil Lines,0-1km,0
 STR002,Store B - Civil Lines,1-3km,500
@@ -9,5 +9,5 @@ STR002,Store B - Civil Lines,3-5km,0
 STR002,Store B - Civil Lines,5km+,0
 STR003,Store C - Wardha Road,0-1km,0
 STR003,Store C - Wardha Road,1-3km,0
-STR003,Store C - Wardha Road,3-5km,173
-STR003,Store C - Wardha Road,5km+,327
+STR003,Store C - Wardha Road,3-5km,176
+STR003,Store C - Wardha Road,5km+,324
