@@ -1,0 +1,47 @@
+GEOPULSE - DATA STRUCTURE DOCUMENTATION
+Week 2: Catchment Area Analysis - Data Understanding
+============================================================
+
+1. GPS DATASET
+----------------------------------------
+File: gps_data_final.csv
+Shape: 123439 rows, 13 columns
+Columns: ['lat', 'lon', 'timestamp', 'activity', 'device_id', 'persona', 'device_os', 'gps_accuracy_m', 'ping_id', 'sequence_no', 'date', 'day_of_week', 'distance_from_home_m']
+Detected Latitude column(s): ['lat']
+Detected Longitude column(s): ['lon']
+Detected Timestamp column(s): ['timestamp', 'date']
+Detected ID column(s): ['device_id', 'device_os', 'ping_id']
+Missing values:
+lat                     0
+lon                     0
+timestamp               0
+activity                0
+device_id               0
+persona                 0
+device_os               0
+gps_accuracy_m          0
+ping_id                 0
+sequence_no             0
+date                    0
+day_of_week             0
+distance_from_home_m    0
+
+2. STORE DATASET
+----------------------------------------
+File: store_catchment_summary.csv
+Shape: 12 rows, 4 columns
+Columns: ['store_id', 'store_name', 'catchment_ring', 'homes_in_ring']
+Detected Latitude column(s): []
+Detected Longitude column(s): []
+Detected Store ID column(s): ['store_id', 'store_name']
+Missing values:
+store_id          0
+store_name        0
+catchment_ring    0
+homes_in_ring     0
+
+3. NOTES / NEXT STEPS
+----------------------------------------
+- Confirm auto-detected columns are correct (manually verify above).
+- Next: use lat/long of GPS points + store locations to calculate
+  Haversine distance for catchment area definition.

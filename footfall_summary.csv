@@ -1,0 +1,4 @@
+store_id,store_name,category,date,total_visits,total_dwell_minutes,unique_visitors,avg_dwell_minutes
+STR001,Store A - Sitabuldi,Supermarket,2026-08-10,37,2232.0,34,60.3
+STR003,Store C - Wardha Road,Hypermarket,2026-08-10,52,2691.0,44,51.8
+STR002,Store B - Civil Lines,Mall,2026-08-10,43,2847.0,41,66.2
