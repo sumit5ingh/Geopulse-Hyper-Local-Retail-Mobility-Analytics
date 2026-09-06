@@ -1,0 +1,12 @@
+[0m22:23:24.998580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80BBFD7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80E3A7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E80E3A7890>]}
+
+
+============================== 22:23:25.006375 | 7ce6ea15-e3d8-4f6d-944b-54169474569f ==============================
+[0m22:23:25.006375 [info ] [MainThread]: Running with dbt=1.12.3
+[0m22:23:25.007545 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\anees\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init geopulse_dbt', 'log_path': 'logs'}
+[0m22:23:25.062077 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\anees\.dbt
+[0m22:23:25.068242 [debug] [MainThread]: Starter project path: C:\Users\anees\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m22:23:25.136992 [info ] [MainThread]: Setting up your profile.
+[0m22:23:58.030275 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m22:23:58.031047 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m22:23:58.031510 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
