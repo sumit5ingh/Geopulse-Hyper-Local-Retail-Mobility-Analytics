@@ -1,0 +1,193 @@
+[0m22:41:54.692947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002459BA6D7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002459E203ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002459E203890>]}
+
+
+============================== 22:41:54.701886 | ecca9ac0-eca7-4356-a0a0-4c2e3e272de7 ==============================
+[0m22:41:54.701886 [info ] [MainThread]: Running with dbt=1.12.3
+[0m22:41:54.703063 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\anees\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init geopulse_dbt', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m22:41:54.757808 [debug] [MainThread]: Starter project path: C:\Users\anees\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m22:41:54.786589 [info ] [MainThread]: Setting up your profile.
+[0m22:41:59.818474 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m22:41:59.819301 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m22:41:59.819734 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m22:48:13.878087 [info ] [MainThread]: Profile geopulse_dbt written to C:\Users\anees\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m22:48:13.895922 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m22:48:13.898552 [info ] [MainThread]: dbt version: 1.12.3
+[0m22:48:13.900034 [info ] [MainThread]: python version: 3.13.12
+[0m22:48:13.901177 [info ] [MainThread]: python path: C:\Users\anees\AppData\Local\Programs\Python\Python313\python.exe
+[0m22:48:13.901832 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m22:48:14.057773 [info ] [MainThread]: Using profiles dir at C:\Users\anees\.dbt
+[0m22:48:14.061838 [info ] [MainThread]: Using profiles.yml file at C:\Users\anees\.dbt\profiles.yml
+[0m22:48:14.062810 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\anees\OneDrive\Documents\Geopulse-Hyper-Local-Retail-Mobility-Analytics\geopulse_dbt\dbt_project.yml
+[0m22:48:14.066044 [info ] [MainThread]: adapter type: snowflake
+[0m22:48:14.066836 [info ] [MainThread]: adapter version: 1.12.0
+[0m22:48:14.232375 [info ] [MainThread]: Configuration:
+[0m22:48:14.233726 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:48:14.234670 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:48:14.235455 [info ] [MainThread]: Required dependencies:
+[0m22:48:14.236477 [debug] [MainThread]: Executing "git --help"
+[0m22:48:14.324604 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:48:14.325429 [debug] [MainThread]: STDERR: "b''"
+[0m22:48:14.326082 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:48:14.327249 [info ] [MainThread]: Connection:
+[0m22:48:14.327926 [info ] [MainThread]:   account: wj23297.ap-southeast-7.aws
+[0m22:48:14.329025 [info ] [MainThread]:   user: ANEESHA
+[0m22:48:14.329969 [info ] [MainThread]:   database: GEOPULSE_DB
+[0m22:48:14.330439 [info ] [MainThread]:   warehouse: GEOPULSE_WH
+[0m22:48:14.330907 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m22:48:14.331378 [info ] [MainThread]:   schema: ANALYTICS
+[0m22:48:14.331903 [info ] [MainThread]:   authenticator: None
+[0m22:48:14.332699 [info ] [MainThread]:   oauth_client_id: None
+[0m22:48:14.333479 [info ] [MainThread]:   query_tag: None
+[0m22:48:14.334520 [info ] [MainThread]:   client_session_keep_alive: False
+[0m22:48:14.335386 [info ] [MainThread]:   host: None
+[0m22:48:14.336547 [info ] [MainThread]:   port: None
+[0m22:48:14.337572 [info ] [MainThread]:   proxy_host: None
+[0m22:48:14.338432 [info ] [MainThread]:   proxy_port: None
+[0m22:48:14.339236 [info ] [MainThread]:   protocol: None
+[0m22:48:14.340014 [info ] [MainThread]:   connect_retries: 1
+[0m22:48:14.340839 [info ] [MainThread]:   connect_timeout: None
+[0m22:48:14.341871 [info ] [MainThread]:   retry_on_database_errors: False
+[0m22:48:14.346626 [info ] [MainThread]:   retry_all: False
+[0m22:48:14.348174 [info ] [MainThread]:   insecure_mode: False
+[0m22:48:14.349328 [info ] [MainThread]:   reuse_connections: True
+[0m22:48:14.350107 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m22:48:14.350988 [info ] [MainThread]:   workload_identity_provider: None
+[0m22:48:14.351623 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m22:48:14.352690 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m22:48:14.353727 [info ] [MainThread]: Registered adapter: snowflake=1.12.0
+[0m22:48:15.094035 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m22:48:15.098858 [debug] [MainThread]: Using snowflake connection "debug"
+[0m22:48:15.099368 [debug] [MainThread]: On debug: select 1 as id
+[0m22:48:15.099709 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:48:19.447825 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m22:48:19.448650 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m22:48:19.449471 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:48:19.450678 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:48:19.451596 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  390100 (28000): Failed to connect to DB: wj23297.ap-southeast-7.aws.snowflakecomputing.com:443. Incorrect username or password was specified. [c996864d-6d44-4099-ab77-7d6908a42322]
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:48:19.452600 [info ] [MainThread]: Your new dbt project "geopulse_dbt" was created!
+Initialized new project in C:\Users\anees\OneDrive\Documents\Geopulse-Hyper-Local-Retail-Mobility-Analytics\geopulse_dbt\geopulse_dbt
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:48:19.453478 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m22:48:19.456159 [debug] [MainThread]: Command `dbt init` succeeded at 22:48:19.455966 after 385.06 seconds
+[0m22:48:19.456603 [debug] [MainThread]: Connection 'debug' was left open.
+[0m22:48:19.457018 [debug] [MainThread]: On debug: No close available on handle
+[0m22:48:19.457468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245C5F45810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002459E24D370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000245C600EBE0>]}
+[0m22:48:19.458051 [debug] [MainThread]: Flushing usage events
+[0m22:48:21.303293 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:49:32.545616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280E49BD7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280E716FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280E716F890>]}
+
+
+============================== 22:49:32.554684 | 2c384ecf-ec0d-4c16-a69d-633edf5ae9db ==============================
+[0m22:49:32.554684 [info ] [MainThread]: Running with dbt=1.12.3
+[0m22:49:32.555919 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\anees\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init geopulse_dbt', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m22:49:32.600946 [info ] [MainThread]: A project called geopulse_dbt already exists here.
+[0m22:49:32.603362 [debug] [MainThread]: Command `dbt init` succeeded at 22:49:32.602522 after 0.34 seconds
+[0m22:49:32.604216 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280E719AEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280E71BD370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280E71B9D00>]}
+[0m22:49:32.604869 [debug] [MainThread]: Flushing usage events
+[0m22:49:34.880288 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:51:03.231111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9EF16D7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9F191FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9F191F890>]}
+
+
+============================== 22:51:03.239851 | e70f1f9c-39af-4c8f-b79c-e6b98dc34d45 ==============================
+[0m22:51:03.239851 [info ] [MainThread]: Running with dbt=1.12.3
+[0m22:51:03.241070 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\anees\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m22:51:03.286005 [info ] [MainThread]: dbt version: 1.12.3
+[0m22:51:03.287983 [info ] [MainThread]: python version: 3.13.12
+[0m22:51:03.288815 [info ] [MainThread]: python path: C:\Users\anees\AppData\Local\Programs\Python\Python313\python.exe
+[0m22:51:03.289425 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m22:51:04.848140 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m22:51:04.849834 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m22:51:04.850651 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m22:51:05.059111 [info ] [MainThread]: Using profiles dir at C:\Users\anees\.dbt
+[0m22:51:05.060026 [info ] [MainThread]: Using profiles.yml file at C:\Users\anees\.dbt\profiles.yml
+[0m22:51:05.060751 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\anees\OneDrive\Documents\Geopulse-Hyper-Local-Retail-Mobility-Analytics\dbt_project.yml
+[0m22:51:05.063018 [info ] [MainThread]: adapter type: snowflake
+[0m22:51:05.063721 [info ] [MainThread]: adapter version: 1.12.0
+[0m22:51:05.064460 [info ] [MainThread]: Configuration:
+[0m22:51:05.066244 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:51:05.068127 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:51:05.069550 [info ] [MainThread]: Required dependencies:
+[0m22:51:05.070522 [debug] [MainThread]: Executing "git --help"
+[0m22:51:05.177983 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:51:05.178674 [debug] [MainThread]: STDERR: "b''"
+[0m22:51:05.179228 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:51:05.179985 [info ] [MainThread]: Connection:
+[0m22:51:05.180785 [info ] [MainThread]:   account: wj23297.ap-southeast-7.aws
+[0m22:51:05.181430 [info ] [MainThread]:   user: ANEESHA
+[0m22:51:05.181892 [info ] [MainThread]:   database: GEOPULSE_DB
+[0m22:51:05.182344 [info ] [MainThread]:   warehouse: GEOPULSE_WH
+[0m22:51:05.182931 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m22:51:05.183538 [info ] [MainThread]:   schema: ANALYTICS
+[0m22:51:05.184169 [info ] [MainThread]:   authenticator: None
+[0m22:51:05.184789 [info ] [MainThread]:   oauth_client_id: None
+[0m22:51:05.185533 [info ] [MainThread]:   query_tag: None
+[0m22:51:05.186651 [info ] [MainThread]:   client_session_keep_alive: False
+[0m22:51:05.187097 [info ] [MainThread]:   host: None
+[0m22:51:05.187544 [info ] [MainThread]:   port: None
+[0m22:51:05.188386 [info ] [MainThread]:   proxy_host: None
+[0m22:51:05.188851 [info ] [MainThread]:   proxy_port: None
+[0m22:51:05.189247 [info ] [MainThread]:   protocol: None
+[0m22:51:05.189668 [info ] [MainThread]:   connect_retries: 1
+[0m22:51:05.190900 [info ] [MainThread]:   connect_timeout: None
+[0m22:51:05.191701 [info ] [MainThread]:   retry_on_database_errors: False
+[0m22:51:05.192624 [info ] [MainThread]:   retry_all: False
+[0m22:51:05.193521 [info ] [MainThread]:   insecure_mode: False
+[0m22:51:05.194428 [info ] [MainThread]:   reuse_connections: True
+[0m22:51:05.195340 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m22:51:05.195996 [info ] [MainThread]:   workload_identity_provider: None
+[0m22:51:05.196578 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m22:51:05.197555 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m22:51:05.198515 [info ] [MainThread]: Registered adapter: snowflake=1.12.0
+[0m22:51:05.703412 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m22:51:05.707900 [debug] [MainThread]: Using snowflake connection "debug"
+[0m22:51:05.708605 [debug] [MainThread]: On debug: select 1 as id
+[0m22:51:05.708970 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:51:06.610491 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m22:51:06.611288 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m22:51:06.611956 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:51:06.612981 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:51:06.613812 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\anees\OneDrive\Documents\Geopulse-Hyper-Local-Retail-Mobility-Analytics\dbt_project.yml> not found
+
+[0m22:51:06.614593 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  390100 (28000): Failed to connect to DB: wj23297.ap-southeast-7.aws.snowflakecomputing.com:443. Incorrect username or password was specified. [783d35fc-3a93-499a-93db-d8afad4712fe]
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:51:06.615972 [debug] [MainThread]: Command `dbt debug` failed at 22:51:06.615778 after 3.70 seconds
+[0m22:51:06.616516 [debug] [MainThread]: Connection 'debug' was left open.
+[0m22:51:06.616951 [debug] [MainThread]: On debug: No close available on handle
+[0m22:51:06.617515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9996B5CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9996C3410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F999572CF0>]}
+[0m22:51:06.618111 [debug] [MainThread]: Flushing usage events
+[0m22:51:08.760914 [debug] [MainThread]: An error was encountered while trying to flush usage events
